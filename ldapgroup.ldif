@@ -1,0 +1,10 @@
+dn: cn=mechi,ou=groups,dc=mecsys,dc=com,dc=br
+objectClass: posixGroup
+cn: mechi
+gidNumber: 1000
+
+dn: cn=isaac.mechi,ou=groups,dc=mecsys,dc=com,dc=br
+objectClass: posixGroup
+cn: isaac.mechi
+gidNumber: 1001
+

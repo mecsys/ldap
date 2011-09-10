@@ -1,0 +1,11 @@
+# create new
+
+# change to your own suffix for the field 'dc=server,dc=world'
+
+dn: ou=people,dc=mecsys,dc=com,dc=br
+objectClass: organizationalUnit
+ou: people
+
+dn: ou=groups,dc=mecsys,dc=com,dc=br
+objectClass: organizationalUnit
+ou: groups
