@@ -1,0 +1,49 @@
+dn: uid=isaac,ou=Users,dc=mecsys,dc=com,dc=br
+changetype: modify
+replace: homeDirectory
+homeDirectory: /mnt/dados/homes/isaac
+
+dn: uid=i_mecaac,ou=Users,dc=mecsys,dc=com,dc=br
+changetype: modify
+replace: homeDirectory
+homeDirectory: /mnt/dados/homes/i_mecaac
+
+dn: uid=b_mecaac,ou=Users,dc=mecsys,dc=com,dc=br
+changetype: modify
+replace: homeDirectory
+homeDirectory: /mnt/dados/homes/b_mecaac
+
+dn: uid=d_mecaac,ou=Users,dc=mecsys,dc=com,dc=br
+changetype: modify
+replace: homeDirectory
+homeDirectory: /mnt/dados/homes/d_mecaac
+
+dn: uid=c_mecaac,ou=Users,dc=mecsys,dc=com,dc=br
+changetype: modify
+replace: homeDirectory
+homeDirectory: /mnt/dados/homes/c_mecaac
+
+dn: uid=e_mecaac,ou=Users,dc=mecsys,dc=com,dc=br
+changetype: modify
+replace: homeDirectory
+homeDirectory: /mnt/dados/homes/e_mecaac
+
+dn: uid=teste,ou=Users,dc=mecsys,dc=com,dc=br
+changetype: modify
+replace: homeDirectory
+homeDirectory: /mnt/dados/homes/teste
+
+dn: uid=apagar,ou=Users,dc=mecsys,dc=com,dc=br
+changetype: modify
+replace: homeDirectory
+homeDirectory: /mnt/dados/homes/apagar
+
+dn: uid=mechi,ou=Users,dc=mecsys,dc=com,dc=br
+changetype: modify
+replace: homeDirectory
+homeDirectory: /mnt/dados/homes/mechi
+
+dn: uid=oi,ou=Users,dc=mecsys,dc=com,dc=br
+changetype: modify
+replace: homeDirectory
+homeDirectory: /mnt/dados/homes/oi

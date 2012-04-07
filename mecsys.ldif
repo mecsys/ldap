@@ -1,0 +1,60 @@
+# empresa.ldif Root
+dn: dc=mecsys,dc=com,dc=br
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: MecSys Ltda
+dc: mecsys
+
+# LDAP Administrator
+dn: cn=admin,dc=mecsys,dc=com,dc=br
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+userPassword: {SSHA}MkD7ljCOAck61+8pZpxJfbRYOoo8ytEL
+description: LDAP administrator
+
+#
+# Groups
+dn: ou=Groups,dc=mecsys,dc=com,dc=br
+objectClass: organizationalUnit
+ou: Groups
+
+dn: ou=AutoMount,dc=mecsys,dc=com,dc=br
+ou: AutoMount
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=auto.master,ou=AutoMount,dc=mecsys,dc=com,dc=br
+ou: auto.master
+objectClass: top
+objectClass: automountMap
+
+dn: cn=/mnt,ou=auto.master,ou=AutoMount,dc=mecsys,dc=com,dc=br
+cn: /mnt
+objectClass: top
+objectClass: automount
+automountInformation: ldap:ou=auto.home,ou=AutoMount,dc=mecsys,dc=com,dc=br --timeout=60 --ghost
+
+dn: ou=auto.home,ou=AutoMount,dc=mecsys,dc=com,dc=br
+ou: auto.home
+objectClass: top
+objectClass: automountMap
+
+dn: cn=*,ou=auto.home,ou=AutoMount,dc=mecsys,dc=com,dc=br
+cn: *
+objectClass: top
+objectClass: automount
+automountInformation: -fstype=nfs,rw,hard,intr,nodev,exec,nosuid,rsize=8192,wsize=8192 nfs.mecsys.com.br:/export/home/&
+
+#
+# Users
+dn: ou=Users,dc=mecsys,dc=com,dc=br
+objectClass: organizationalUnit
+ou: Users
+
+#
+# Machines
+dn: ou=Machines,dc=mecsys,dc=com,dc=br
+objectClass: organizationalUnit
+ou: Machines 

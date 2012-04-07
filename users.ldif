@@ -1,0 +1,65 @@
+dn: uid=i_mecaac,ou=Users,dc=mecsys,dc=com,dc=br
+objectClass: account
+objectClass: posixAccount
+cn: i_mecaac
+description: User account
+gecos: i_mecaac
+gidNumber: 10001
+homeDirectory: /mnt/dados/homes/i_mecaac
+loginShell: /bin/bash
+uid: i_mecaac
+uidNumber: 10001
+userPassword:: e1NTSEF9YldTYiswbDNTTGdJMi9BZUw2ekpKdGxjQi9pdTBXTjE=
+
+dn: uid=b_mecaac,ou=Users,dc=mecsys,dc=com,dc=br
+objectClass: account
+objectClass: posixAccount
+cn: b_mecaac
+description: User account
+gecos: b_mecaac
+gidNumber: 10001
+homeDirectory: /mnt/dados/homes/b_mecaac
+loginShell: /bin/bash
+uid: b_mecaac
+uidNumber: 10002
+userPassword:: e1NTSEF9cGZ6eU9rL1VtT1NnZzNoaUZpemQyWXhTT1pVNlloRm8=
+
+dn: uid=d_mecaac,ou=Users,dc=mecsys,dc=com,dc=br
+objectClass: account
+objectClass: posixAccount
+cn: d_mecaac
+description: User account
+gecos: d_mecaac
+gidNumber: 10001
+homeDirectory: /mnt/dados/homes/d_mecaac
+loginShell: /bin/bash
+uid: d_mecaac
+uidNumber: 10003
+userPassword:: e1NTSEF9QUJKbi9JenI0ZUdrbDNXVjRRajFZcCtpVGR0a2lOOFI=
+
+dn: uid=c_mecaac,ou=Users,dc=mecsys,dc=com,dc=br
+objectClass: account
+objectClass: posixAccount
+cn: c_mecaac
+description: User account
+gecos: c_mecaac
+gidNumber: 10001
+homeDirectory: /mnt/dados/homes/c_mecaac
+loginShell: /bin/bash
+uid: c_mecaac
+uidNumber: 10004
+userPassword:: e1NTSEF9QnUzdTNuRGdGVjg5VzhqSlhzNHcrVXNlTHJvMjNSaEE=
+
+dn: uid=e_mecaac,ou=Users,dc=mecsys,dc=com,dc=br
+objectClass: account
+objectClass: posixAccount
+cn: e_mecaac
+description: User account
+gecos: e_mecaac
+gidNumber: 10001
+homeDirectory: /mnt/dados/homes/e_mecaac
+loginShell: /bin/bash
+uid: e_mecaac
+uidNumber: 10005
+userPassword:: e1NTSEF9ZkNCK2ZLZi9uK0U4NDU0V1BOVU45dnZBYWR4eFZ5MmM=
+
