@@ -1,3 +1,11 @@
+# Groups
+dn: cn=inf500,ou=Groups,dc=mecsys,dc=com,dc=br
+objectClass: posixGroup
+cn: inf500
+description: Group account
+gidNumber: 10001
+
+# Users
 dn: uid=i_mecaac,ou=Users,dc=mecsys,dc=com,dc=br
 objectClass: account
 objectClass: posixAccount
@@ -5,7 +13,7 @@ cn: i_mecaac
 description: User account
 gecos: i_mecaac
 gidNumber: 10001
-homeDirectory: /mnt/dados/homes/i_mecaac
+homeDirectory: /mnt/homes/i_mecaac
 loginShell: /bin/bash
 uid: i_mecaac
 uidNumber: 10001
@@ -18,7 +26,7 @@ cn: b_mecaac
 description: User account
 gecos: b_mecaac
 gidNumber: 10001
-homeDirectory: /mnt/dados/homes/b_mecaac
+homeDirectory: /mnt/homes/b_mecaac
 loginShell: /bin/bash
 uid: b_mecaac
 uidNumber: 10002
@@ -31,7 +39,7 @@ cn: d_mecaac
 description: User account
 gecos: d_mecaac
 gidNumber: 10001
-homeDirectory: /mnt/dados/homes/d_mecaac
+homeDirectory: /mnt/homes/d_mecaac
 loginShell: /bin/bash
 uid: d_mecaac
 uidNumber: 10003
@@ -44,7 +52,7 @@ cn: c_mecaac
 description: User account
 gecos: c_mecaac
 gidNumber: 10001
-homeDirectory: /mnt/dados/homes/c_mecaac
+homeDirectory: /mnt/homes/c_mecaac
 loginShell: /bin/bash
 uid: c_mecaac
 uidNumber: 10004
@@ -57,7 +65,7 @@ cn: e_mecaac
 description: User account
 gecos: e_mecaac
 gidNumber: 10001
-homeDirectory: /mnt/dados/homes/e_mecaac
+homeDirectory: /mnt/homes/e_mecaac
 loginShell: /bin/bash
 uid: e_mecaac
 uidNumber: 10005

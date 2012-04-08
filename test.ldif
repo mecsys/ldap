@@ -1,0 +1,3 @@
+dn: cn=b_mecaac,ou=Users,dc=mecsys,dc=com,dc=br
+changetype: modify
+delete: userPassword

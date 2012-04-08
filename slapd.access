@@ -1,0 +1,11 @@
+# Everyone can read everything
+access to dn.base="" by * read
+
+# The admin dn has full write access
+access to *
+        by dn="uid=ldapadm,ou=Users,dc=mecsys,dc=com,dc=br" write
+                by * read
+
+# Temporary lines to allow initial setup
+        rootdn "cn=admin,dc=mecsys,dc=com,dc=br"
+        rootpw qwepoi32@
